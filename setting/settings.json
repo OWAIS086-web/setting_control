@@ -1,0 +1,90 @@
+{
+    "page1": [
+        {
+            "id": "emblem_insp",
+            "title": "Emblem Inspection",
+            "type": "button",
+            "default_value_bool": true,
+            "default_value": {
+                "state": false,
+                "value": 9
+            }
+        },
+        {
+            "id": "hazard_lamp",
+            "title": "Hazard Lights",
+            "type": "awais",
+            "default_value": {
+                "state": false,
+                "value": 9
+            },
+            "default_value_bool": 100
+        },
+        {
+            "id": "car_wait_time",
+            "title": "Car Wait Time",
+            "type": "value hh",
+            "default_value_bool": 500
+        },
+        {
+            "id": "password",
+            "title": "Remote Password",
+            "type": "value",
+            "default_value_bool": true
+        }
+    ],
+    "page2": [
+        {
+            "id": "emblem_insp",
+            "title": "Emblem Inspection",
+            "type": "button",
+            "default_value_bool": true
+        },
+        {
+            "id": "hazard_lamp",
+            "title": "Hazard Lights",
+            "type": "button_fan",
+            "default_value": {
+                "state": true,
+                "value": 5
+            }
+        }
+    ],
+    "page3": [
+        {
+            "id": "emblem_insp",
+            "title": "Emblem Inspection",
+            "type": "button",
+            "default_value_bool": true
+        },
+        {
+            "id": "hazard_lamp",
+            "title": "Hazard Lights",
+            "type": "button_value",
+            "default_value": {
+                "state": true,
+                "value": 50
+            }
+        }
+    ],
+    "page4": [
+        {
+            "id": "emblem_insp",
+            "title": "Emblem Inspection",
+            "type": "button",
+            "default_value": {
+                "state": true,
+                "value": 50
+            }
+        },
+        {
+            "id": "hazard_lamp",
+            "title": "Hazard Lights",
+            "type": "button_value",
+            "default_value": {
+                "state": true,
+                "value": 5
+            }
+        }
+    ]
+}
